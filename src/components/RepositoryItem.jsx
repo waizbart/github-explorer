@@ -1,7 +1,7 @@
-export function RepositoryItem(props) {
+export function RepositoryItem({repositoryName}) {
     return (
         <li>
-            <strong>unform</strong>
+            <strong>{repositoryName}</strong>
             <p>Forms in React</p>
 
             <a href="">
